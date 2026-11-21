@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Where To Africa | Responsible African Travel</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <img src="images/company-logo.png" alt="Where To Africa" class="logo">
+    <ul class="dropdown-menu" id="dropdown-menu">
+      <li class="menu-close-item">
+        <button type="button" id="closeMenu">⨯</button>
+      </li>
+      <li><a href="#destinations">Destinations </a></li>
+      <li><a href="#journey">Journey</a></li>
+      <li><a href="#destinations">Retreats</a></li>
+      <li><a href="#experiences">Experiences</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#reviews">Blog</a></li>
+      <li><a href="#conservation">Conservation</a></li>
+    </ul>
+    <button type="button" class="plan-btn">Help Me Plan</button>
+    <button type="button" class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Where Will Africa Take You?</h1>
+      <div class="country-list" id="country-list">
+        <p>Zimbabwe</p>
+        <p>Botswana</p>
+        <p>Kenya</p>
+        <div class="search-box">
+          <input type="text" placeholder=" Mozambique" aria-label="Search destination">
+          <button type="button">GO</button>
+        </div>
+        <p>Namibia</p>
+        <p>South Africa</p>
+        <p>Zambia</p>
+        <p>Tanzania</p>
+      </div>
+    </div>
+    <div class="hero-country">Mozambique</div>
+  </section>
+
+  <!-- WELCOME / DESTINATIONS -->
+
+  <section class="welcome-section" id="destinations">
+    <div class="welcome-heading">
+      <h2>Welcome to Our Africa</h2>
+      <p>We promote responsible African Tours that protect<br>
+        wilderness, support local communities, and celebrate<br>
+        culture through thoughtful journey planning</p>
+      <small>...travel experiences that help preserve wildlife, strengthen communities, and<br>
+        ensure tourism benefits the places you visit...</small>
+    </div>
+
+    <div class="packages-section">
+      <div class="country-packages">
+        <button type="button" data-country="botswana">Botswana Packages</button>
+        <button type="button" data-country="kenya">Kenya Packages</button>
+        <button type="button" data-country="mozambique">Mozambique Packages</button>
+        <button type="button" data-country="namibia">Namibia Packages</button>
+        <button type="button" data-country="south-africa">South Africa Packages</button>
+        <button type="button" data-country="tanzania">Tanzania Packages</button>
+        <button type="button" data-country="zambia">Zambia Packages</button>
+        <button type="button" data-country="zimbabwe">Zimbabwe Packages</button>
+      </div>
+      <div class="destination-container">
+        <button class="slide-arrow left-arrow" id="prevBtn">
+          &#8592;
+        </button>
+        <button class="slide-arrow right-arrow" id="nextBtn">
+          &#8594;
+        </button>
+        <div class="destination-cards">
+
+          <!--==========data-countrybotswana===============-->
+
+          <article class="destination-card" data-country="botswana">
+            <img src="images/tiger.png" alt="Safari wildlife">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>Three Rivers Safari – Victoria Falls, Chobe, Okavango</h3>
+              <p>From: $8,836.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="botswana">
+            <img src="images/waterfall1.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="botswana">
+            <img src="images/waterfall2.png" alt="Waterfall destination">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>Victoria Falls Explorer – 4 Day / 3 Night</h3>
+              <p>From: $1,666.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="botswana">
+            <img src="images/hotel.png" alt="Victoria Falls hotel">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>2 Night Victoria Falls Hotel Package</h3>
+              <p>From: $1,908.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="botswana">
+            <img src="images/camp.png" alt="Safari camp">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>Three Rivers Safari – Victoria Falls, Chobe, Okavango</h3>
+              <p>From: $8,836.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="botswana">
+            <img src="images/lionn.png" alt="Lion in the wild">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>Three Rivers Safari – Victoria Falls, Chobe, Okavango</h3>
+              <p>From: $8,836.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="botswana">
+            <img src="images/waterfall3.png" alt="African waterfall">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>Three Rivers Safari – Victoria Falls, Chobe, Okavango</h3>
+              <p>From: $8,836.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="botswana">
+            <img src="images/hotel.png" alt="Victoria Falls hotel">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>2 Night Victoria Falls Hotel Package</h3>
+              <p>From: $1,908.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="botswana">
+            <img src="images/camp.png" alt="Victoria Falls hotel">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>2 Night Victoria Falls Hotel Package</h3>
+              <p>From: $1,908.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="botswana">
+            <img src="images/hotel.png" alt="Victoria Falls hotel">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>2 Night Victoria Falls Hotel Package</h3>
+              <p>From: $1,908.00</p>
+            </div>
+            <!--================= Kenya Destination ==============-->
+          </article>
+          <article class="destination-card" data-country="kenya">
+            <img src="images/waterfall1.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="kenya">
+            <img src="images/Kenyadst1.jpg" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="kenya">
+            <img src="images/waterfall3.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="kenya">
+            <img src="images/camp.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="kenya">
+            <img src="images/waterfall2.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <!--============ Mozambique Destination ==============-->
+
+          <article class="destination-card" data-country="mozambique">
+            <img src="images/lionn.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="mozambique">
+            <img src="images/waterfall1.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="mozambique">
+            <img src="images/hotel.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="mozambique">
+            <img src="images/camp.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="mozambique">
+            <img src="images/waterfall3.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="mozambique">
+            <img src="images/lion2.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <!-- =========Namibia Package ==============-->
+
+          <article class="destination-card" data-country="namibia">
+            <img src="images/Namibia.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="namibia">
+            <img src="images/camp.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="namibia">
+            <img src="images/waterfall1.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="namibia">
+            <img src="images/waterfall2.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="namibia">
+            <img src="images/hotel.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <!--=========================SouthAfrica ===========================-->
+          <article class="destination-card" data-country="south-africa">
+            <img src="images/SouthAfrica.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="south-africa">
+            <img src="images/waterfall2.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="south-africa">
+            <img src="images/tiger.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="south-africa">
+            <img src="images/waterfall1.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+
+          <!--==============================Tanzania==================================-->
+          <article class="destination-card" data-country="tanzania">
+            <img src="images/waterfall3.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+
+          <article class="destination-card" data-country="tanzania">
+            <img src="images/camp.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="tanzania">
+            <img src="images/waterfall1.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="tanzania">
+            <img src="images/waterfall2.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <!--================================ Zambia =============================-->
+          <article class="destination-card" data-country="zambia">
+            <img src="images/Zambia.jpg" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="zambia">
+            <img src="images/camp.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="zambia">
+            <img src="images/waterfall2.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="zambia">
+            <img src="images/waterfall1.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <!--====================== Zimbabwe ========================-->
+
+          <article class="destination-card" data-country="zimbabwe">
+            <img src="images/Zimbabwe.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="zimbabwe">
+            <img src="images/tiger.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="zimbabwe">
+            <img src="images/waterfall1.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+          <article class="destination-card" data-country="zimbabwe">
+            <img src="images/lionn.png" alt="Victoria Falls">
+            <div class="card-overlay"></div>
+            <span class="view-button">VIEW</span>
+            <div class="card-content">
+              <h3>A Splash Of Victoria Falls & A Dash Of Chobe 6 Day / 5 Night</h3>
+              <p>From: $3,980.00</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </div>
+    <div class="pagination">
+      <button type="button" id="prevBtn">←</button>
+      <span id="currentPage">01</span>
+      <span class="page-line"></span>
+      <span id="totalPages">02</span>
+      <button type="button" id="nextBtn">→</button>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+
+  <div class="about-container" id="journey">
+    <div class="about-text">
+      <span class="about-subtitle">JOHN MCMILLAN, CEO AT WHERE TO AFRICA:</span>
+      <h2>"Travel That Respects <br>Africa's Future"</h2>
+      <p>Spending time across Africa revealed how tourism decisions affect people and nature. Responsible travel begins
+        with listening to local voices and understanding natural limits.</p>
+      <p>"Where to Africa" was created around the belief that travel should benefit the places it touches. Supporting
+        local communities, protecting wildlife, and respecting cultural heritage remain central to every journey
+        offered.</p>
+      <p>Journeys designed by "Where to Africa" are built on trust and long-term partnerships across Southern and East
+        Africa. Each trip considers the land, the people, and what remains after visitors leave. The goal is simple:
+        ensure travelers return home aware, while destinations gain lasting value through protection, partnership, and
+        respect. This approach guides decisions daily and reflects a commitment to Africa's future, and its wildlife for
+        generations to come.</p>
+    </div>
+    <div class="about-image">
+      <img src="images/travel-experience.png" alt="Travelers exploring Africa">
+    </div>
+  </div>
+
+  <div class="choose-section">
+    <div class="choose-heading">
+      <span>TRUSTED AFRICAN TRAVEL EXPERIENCES</span>
+      <h2>Why Our Travelers Choose Us</h2>
+      <p>Where to Africa focuses on responsible planning, local partnerships, and<br>
+        meaningful travel experiences across Southern and East Africa.</p>
+    </div>
+    <div class="feature-container">
+      <article class="feature-card">
+        <img src="images/local-knowledge.png" alt="Local Knowledge">
+        <div class="feature-content">
+          <h3>Local Knowledge</h3>
+          <p>Trips are designed with local guides and partners, ensuring authentic experiences while supporting
+            livelihoods and sharing genuine regional understanding.</p>
+        </div>
+      </article>
+      <article class="feature-card">
+        <img src="images/responsible-travel.png" alt="Responsible Travel">
+        <div class="feature-content">
+          <h3>Responsible Travel</h3>
+          <p>Journey support conservation & local community through low-impact travel practice that protect
+            wildlife habitat,respect culture & benefit destination responsibly.</p>
+        </div>
+      </article>
+      <article class="feature-card">
+        <img src="images/careful-planning.png" alt="Careful Planning">
+        <div class="feature-content">
+          <h3>Careful Planning</h3>
+          <p>Each itinerary balances comfort, adventure, and realistic travel pacing to deliver smooth, enjoyable
+            journeys across multiple African destinations.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+
+
+  <!-- EXPLORE AFRICA -->
+  <section class="explore-section" id="experiences">
+    <div class="explore-heading">
+      <small>LAND TOURS & CRUISES</small>
+      <h2>Explore The Possibilities</h2>
+    </div>
+    <div class="map-section">
+      <img src="images/africa-map.png" alt="Africa and World Map" class="africa-map">
+    </div>
+    <div class="meaningful-section">
+      <div class="meaningful-overlay"></div>
+      <div class="meaningful-content" id="conservation">
+        <small>TRAVEL WITH A PURPOSE</small>
+        <h2>Meaningful African traveled responsibly</h2>
+        <p>We work with local partners to support community livelihoods through fair employment and respectful cultural
+          experiences.</p>
+        <p>Wildlife activities follow responsible guidelines that reduce disturbance and support conservation and
+          habitat protection.</p>
+        <p>Travel decisions focus on long-term benefits, ensuring tourism supports people, nature, and destinations
+          beyond each visit.</p>
+        <button type="button">LEARN MORE</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS AND CONTACT -->
+  <section class="reviews-page" id="reviews">
+    <div class="reviews-section">
+      <div class="reviews-heading">
+        <small>REVIEWS</small>
+        <h2>Real Stories From Happy Travelers</h2>
+        <div class="review-arrows">
+          <button type="button"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512"
+              height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+              <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="48"
+                d="M244 400 100 256l144-144M120 256h292"></path>
+            </svg></button>
+          <button type="button"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512"
+              height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+              <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="48"
+                d="m268 112 144 144-144 144m124-144H100"></path>
+            </svg></button>
+        </div>
+      </div>
+      <div class="reviews-container">
+        <article class="review-card">
+          <div class="review-top">
+            <img src="images/review1.png" alt="James and Steve">
+            <div>
+              <h3>James &amp; Steve</h3><span>USA</span>
+            </div>
+          </div>
+          <div class="review-content">
+            <div class="stars">★★★★★</div>
+            <p>On our first African Safari, I booked our Zimbabwe portion through Where To Africa Experiences - this was
+              one of the best decisions I made on the entire trip.</p>
+          </div>
+        </article>
+        <article class="review-card">
+          <div class="review-top">
+            <img src="images/review2.png" alt="John Anderson">
+            <div>
+              <h3>John Anderson</h3><span>NEW ZEALAND</span>
+            </div>
+          </div>
+          <div class="review-content">
+            <div class="stars">★★★★★</div>
+            <p>Everything from booking to our safari experience was smooth and professional. Highly recommend Where To
+              Africa for anyone planning an African adventure.</p>
+          </div>
+        </article>
+        <article class="review-card">
+          <div class="review-top">
+            <img src="images/review3.png" alt="Kent Kauffman">
+            <div>
+              <h3>Kent Kauffman</h3><span>USA</span>
+            </div>
+          </div>
+          <div class="review-content">
+            <div class="stars">★★★★★</div>
+            <p>I took 13 people to Victoria Falls for 3 nights and had a trip with Where To Africa. They made everything
+              very easy, and the payment process was straightforward.</p>
+          </div>
+        </article>
+        <article class="review-card">
+          <div class="review-top">
+            <img src="images/review4.png" alt="Kent Kauffman">
+            <div>
+              <h3>Justin</h3><span>UNITED KINGDOM</span>
+            </div>
+          </div>
+          <div class="review-content">
+            <div class="stars">★★★★★</div>
+            <p>I thoroughly enjoyed my African Safari experience from start to finish with Where to Africa. Everything
+              went smoothly. I would recommend this company to any of my friends, colleagues, or family.</p>
+          </div>
+        </article>
+        <article class="review-card">
+          <div class="review-top">
+            <img src="images/review1.png" alt="James and Steve">
+            <div>
+              <h3>James &amp; Steve</h3><span>USA</span>
+            </div>
+          </div>
+          <div class="review-content">
+            <div class="stars">★★★★★</div>
+            <p>On our first African Safari, I booked our Zimbabwe portion through Where To Africa Experiences - this was
+              one of the best decisions I made on the entire trip.</p>
+          </div>
+        </article>
+        <article class="review-card">
+          <div class="review-top">
+            <img src="images/review2.png" alt="John Anderson">
+            <div>
+              <h3>John Anderson</h3><span>NEW ZEALAND</span>
+            </div>
+          </div>
+          <div class="review-content">
+            <div class="stars">★★★★★</div>
+            <p>Everything from booking to our safari experience was smooth and professional. Highly recommend Where To
+              Africa for anyone planning an African adventure.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="contact-section">
+      <div class="contact-content">
+        <small>GET STARTED</small>
+        <h2>Want To Chat?</h2>
+        <p>Talk with our team and start planning your African journey.</p>
+        <button type="button">HELP ME PLAN</button>
+        <h5>or call us on:
+          <span> +27(0)315352811 </span>
+        </h5>
+      </div>
+
+      <div class="contact-images">
+
+        <div class="image-card">
+          <img src="images/lion2.png" alt="African Lion">
+          <div class="animal-overlay">
+            <span>LION</span>
+          </div>
+        </div>
+
+        <div class="image-card">
+          <img src="images/elephant.png" alt="African Elephant">
+          <div class="animal-overlay">
+            <span>ELEPHANT</span>
+          </div>
+        </div>
+
+        <div class="image-card">
+          <img src="images/zebra.png" alt="African Zebra">
+          <div class="animal-overlay">
+            <span>ZEBRA</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PARTNERS AND FOOTER -->
+  <section class="partners-footer">
+    <div class="partners-section">
+      <div class="partners-heading">
+        <small>OUR PARTNERS</small>
+        <h2>Trusted Partners Powering Our<br>Global Journey</h2>
+        <p>Our Partners In Africa Will Make Your Dream Trip, A Trip To Never Forget</p>
+      </div>
+      <div class="partner-logos">
+        <div class="partner-item"><img src="images/asilia.png" alt="Asilia"></div>
+        <div class="partner-item"><img src="images/natural-selection.png" alt="Natural Selection"></div>
+        <div class="partner-item"><img src="images/african-bush-camps.png" alt="African Bush Camps"></div>
+        <div class="partner-item"><img src="images/time-tide.png" alt="Time Tide"></div>
+        <div class="partner-item"><img src="images/ecotraining.png" alt="EcoTraining"></div>
+        <div class="partner-item"><img src="images/apta.png" alt="APTA "></div>
+        <div class="partner-item"><img src="images/asilia.png" alt="Asilia"></div>
+      </div>
+      <div class="partner-dots"><span
+          class="active"></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+    </div>
+
+    <footer class="main-footer">
+      <div class="footer-logo"><img src="images/company-logo.png" alt="Where To Africa"></div>
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <a href="#destinations">Home</a><a href="#about">About Us</a><a href="#reviews">Contact Us</a>
+        <a href="#destinations">Retreats</a><a href="#journey">Journey</a><a href="#experiences">Experience</a>
+      </div>
+      <div class="footer-column">
+        <h3>South African Office</h3>
+        <p>Tel: +27 31 535 2811</p>
+        <p>M : +27 83 625 3607</p>
+        <p>Email: res@whereto.africa</p>
+        <p>Unit 1 Underwood Lodge, 34<br>Underwood Road, Umgeni Park,<br>4051 Durban</p>
+      </div>
+      <div class="footer-column">
+        <h3>Zimbabwe Office</h3>
+        <p>Phone: +263 77 538 6228</p>
+        <p>Email: spiwe@whereto.africa</p>
+        <p>1 Mallet Drive, Victoria Falls,<br>Zimbabwe</p>
+      </div>
+      <div class="review-widget">
+        <div class="review-score">10</div>
+        <div><strong>Kiyoh</strong><small>6 reviews</small></div>
+        <div class="review-stars">★★★★★</div>
+        <button type="button">Review us ❯</button>
+      </div>
+    </footer>
+    <div class="copyright-section">
+      <p>All rights reserved © 2026 Where to Africa, Design by Safari Marketing Pro</p>
+      <a href="#">Privacy Policy</a>
+    </div>
+  </section>
+
+
+  <script src="./index.js"></script>
+
+</body>
+
+</html>
