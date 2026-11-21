@@ -882,14 +882,14 @@ body {
 
 .feature-card {
     /* background-color: #ffffff; */
-    /* background-color: red; */
+    background-color: red;
     border: 1px solid #eeeeee;
     border-radius: 5px;
     overflow: hidden;
     margin-left: -2vw;
     transition: all 0.3s ease;
     width: 27vw;
-    height: 31vw;
+    height: 20vw;
 
 }
 
